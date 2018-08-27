@@ -1,1 +1,4 @@
-git@github.com:fizx/heroku-buildpack-python.git
+#!/bin/bash
+
+BUILD_DIR=${1:-}
+cd "$BUILD_DIR" && ./test
